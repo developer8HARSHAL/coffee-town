@@ -1,0 +1,62 @@
+/* file: styles.css */
+body{
+  background-image: url('images/cd2.jpg');
+  background-size: cover;
+}
+.form-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: #f5f5f55f;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-card h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #0d5b08;
+  }
+  
+  .form-card label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .form-card input[type="text"],
+  .form-card input[type="email"],
+  .form-card input[type="tel"],
+  .form-card textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-card textarea {
+    height: 150px;
+  }
+  
+  .form-card input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #04762e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .form-card input[type="submit"]:hover {
+    background-color: #07542e;
+  }
